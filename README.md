@@ -99,9 +99,81 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   uint16_t (unsigned int)
   
 ### enableAutoSend()
+  
+  Enable auto sampling, with fixed interval 1s
+  
+  **Usage**
+  
+  `PM25.enableAutoSend()`
+  
+  **Parameters**
+  
+  None
+  
+  **Returns**
+  
+  boolean (true if success)
+
 ### disableAutoSend()
+
+  Disable auto sampling
+  
+  **Usage**
+  
+  `PM25.disableAutoSend()`
+  
+  **Parameters**
+  
+  None
+  
+  **Returns**
+  
+  boolean (true if success)
+  
 ### setAdjustmentCOF()
+
+  Set customer adjustment coefficient
+  
+  **Usage**
+  
+  `PM25.setAdjustmentCOF(val)`
+  
+  **Parameters**
+  
+  * **val**: range is from 30 - 200
+  
+  **Returns**
+  
+  boolean (true if success)
+  
 ### getAdjustmentCOF()
+
+  Get customer adjustment coefficient, by default the return value is 100
+  
+  **Usage**
+  
+  `PM25.getAdjustmentCOF()`
+  
+  **Parameters**
+  
+  None
+  
+  **Returns**
+  
+  uint8_t (unsigned char)
+  
 ### loop()
- 
-## Debug
+
+  With [enableAutoSend()](#enableAutoSend), automatically gets the values from auto sampling. If successful, updates the sensor values, otherwise initialise the sensor values to 0. User can obtain the value by using [get()](#get)
+  
+  **Usage**
+  
+  `PM25.loop()`
+  
+  **Parameters**
+  
+  None
+  
+  **Returns**
+  
+  boolean (true if success)
