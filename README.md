@@ -1,6 +1,16 @@
 # pm25
 Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
 
+## Debugging
+Edit the line `#define _PM25LOGLEVEL_ 1` in debug.h in src/utility folder for more verbose info.
+```
+  0: DISABLED: no logging
+  1: ERROR: errors (default)
+  2: WARN: errors and warnings
+  3: INFO: errors, warnings and informational
+  4: DEBUG: errors, warnings, informational and debug
+```
+
 ## APIs
 ### init()
 
