@@ -19,6 +19,7 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   * **listen** : function pointer, it is used when 1 or more SoftwareSerials are used, check examples
  
   **Returns**
+  
   boolean (true if success)
 
 > ### start()
@@ -34,6 +35,7 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   None
   
   **Returns**
+  
   boolean (true if success)
   
 > ### stop()
@@ -49,6 +51,7 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   None
   
   **Returns**
+  
   boolean (true if success)
   
 > ### read()
@@ -70,6 +73,7 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   * **Options**: PM01_TYPE, PM25_TYPE, PM10_TYPE
   
   **Returns**
+  
   uint16_t (unsigned int)
   
 > ### get()
