@@ -2,11 +2,14 @@
 Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
 
 ## APIs
-`PM25.init(Stream *pm25_ser, Stream *debugSerial, void(*listen)())`
+### init()
 
-  **Description**
-    - Initialise PM25 sensor communication
- 
+  Initialise PM25 sensor communication
+  
+  **Usage**
+  
+  `PM25.init(Stream *pm25_ser, Stream *debugSerial, void(*listen)())`
+  
   **Parameters**
     
   * **pm25_ser**: HardwareSerial or SoftwareSerial object for UART communication with PM25 sensor
@@ -17,5 +20,14 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
  
   **Returns**
     - boolean
+
+`PM25.start()`
+`PM25.stop()`
+`PM25.read()`
+`PM25.get()`
+`PM25.enableAutoSend()`
+`PM25.disableAutoSend()`
+`PM25.setAdjustmentCOF()`
+`PM25.getAdjustmentCOF()`
  
 ## Debug
