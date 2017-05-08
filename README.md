@@ -164,7 +164,7 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   
 ### loop()
 
-  With [enableAutoSend()](#enableAutoSend), automatically gets the values from auto sampling. If successful, updates the sensor values, otherwise initialise the sensor values to 0. User can obtain the value by using [get()](#get)
+  With [enableAutoSend()](#enableautosend), automatically gets the values from auto sampling. If successful, updates the sensor values, otherwise initialise the sensor values to 0. User can obtain the value by using [get()](#get)
   
   **Usage**
   
