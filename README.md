@@ -2,7 +2,7 @@
 Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
 
 ## APIs
-> ### init()
+### init()
 
   Initialise PM25 sensor communication
   
@@ -22,7 +22,7 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   
   boolean (true if success)
 
-> ### start()
+### start()
 
   Start taking particle measurement (this function is enabled by default)
   
@@ -38,7 +38,7 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   
   boolean (true if success)
   
-> ### stop()
+### stop()
 
   Stop taking particle measurement
   
@@ -54,9 +54,9 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   
   boolean (true if success)
   
-> ### read()
+### read()
 
-  Start taking particle measurement result, by default it gives PM2.5 value
+  Start taking new particle measurement result, by default it gives PM2.5 value
   
   **Usage**
   
@@ -76,10 +76,32 @@ Arduino Library for PM1.0/2.5/10 Laser Dust Sensor
   
   uint16_t (unsigned int)
   
-> ### get()
-> ### enableAutoSend()
-> ### disableAutoSend()
-> ### setAdjustmentCOF()
-> ### getAdjustmentCOF()
+### get()
+  
+  Gets the previously recorded particle measurement result (if any), normally used with [loop()](#loop)
+  
+  **Usage**
+  
+  `uint16_t val = PM25.get()`
+  
+  `uint16_t val = PM25.get(PM01_TYPE)`
+  
+  `uint16_t val = PM25.get(PM25_TYPE)`
+  
+  `uint16_t val = PM25.get(PM10_TYPE)`
+  
+  **Parameters**
+  
+  * **Options**: PM01_TYPE, PM25_TYPE, PM10_TYPE
+  
+  **Returns**
+  
+  uint16_t (unsigned int)
+  
+### enableAutoSend()
+### disableAutoSend()
+### setAdjustmentCOF()
+### getAdjustmentCOF()
+### loop()
  
 ## Debug
