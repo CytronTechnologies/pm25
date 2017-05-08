@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "PM25\n\n\nThis is a simple Arduino Library for PM1.0/2.5/10 Laser Dust Sensor.\n\n\nSoftware\n\n\nArduino IDE v1.6.7 or above\n\n\nHow to install\n\n\n\n\nDownload the zip folder.\n\n\nOpen Arduino IDE, go to Sketch -\n Include Library -\n Add .ZIP Library.\n\n\nOpen the downloaded zip folder and click OK to complete installation.\n\n\n\n\nExamples\n\n\n\n\npm25_basic\n\n\npm25_with_autoSend\n\n\n\n\nDebug\n\n\nEdit the line \n#define _PM25LOGLEVEL_ 1\n in debug.h in src/utility folder for more verbose info.\n\n  0: DISABLED: no logging\n  1: ERROR: errors (default)\n  2: WARN: errors and warnings\n  3: INFO: errors, warnings and informational\n  4: DEBUG: errors, warnings, informational and debug\n\n\n\n\n\nReference\n\n\n\n\nPM1.0/2.5/10 Laser Dust Sensor Datasheet\n\n\nWebsite\n\n\n\n\nIssues\n\n\n\n\nPlease visit our \nGithub Page\n or \nTechnical Forum\n to post an issue if there is any. Thank you.", 
+            "text": "PM25\n\n\nThis is a simple Arduino Library for PM1.0/2.5/10 Laser Dust Sensor.\n\n\nSoftware\n\n\nArduino IDE v1.6.7 or above\n\n\nHow to install\n\n\n\n\nDownload the zip folder \nhere\n.\n\n\nOpen Arduino IDE, go to Sketch -\n Include Library -\n Add .ZIP Library.\n\n\nOpen the downloaded zip folder and click OK to complete installation.\n\n\n\n\nExamples\n\n\n\n\npm25_basic\n\n\npm25_with_autoSend\n\n\n\n\nDebug\n\n\nEdit the line \n#define _PM25LOGLEVEL_ 1\n in debug.h in src/utility folder for more verbose info.\n\n  0: DISABLED: no logging\n  1: ERROR: errors (default)\n  2: WARN: errors and warnings\n  3: INFO: errors, warnings and informational\n  4: DEBUG: errors, warnings, informational and debug\n\n\n\n\n\nReference\n\n\n\n\nPM1.0/2.5/10 Laser Dust Sensor Datasheet\n\n\nWebsite\n\n\n\n\nIssues\n\n\n\n\nPlease visit our \nGithub Page\n or \nTechnical Forum\n to post an issue if there is any. Thank you.", 
             "title": "Introduction"
         }, 
         {
@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/#how-to-install", 
-            "text": "Download the zip folder.  Open Arduino IDE, go to Sketch -  Include Library -  Add .ZIP Library.  Open the downloaded zip folder and click OK to complete installation.", 
+            "text": "Download the zip folder  here .  Open Arduino IDE, go to Sketch -  Include Library -  Add .ZIP Library.  Open the downloaded zip folder and click OK to complete installation.", 
             "title": "How to install"
         }, 
         {
