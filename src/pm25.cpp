@@ -28,7 +28,7 @@ bool pm25::init(Stream *serial, Stream *debugSerial, void (*ptr)()){
 	}
 	else{
 		LOGERROR("Initialisation failed")
-		while(1);
+		//while(1);
 	}
 	return false;
 }
