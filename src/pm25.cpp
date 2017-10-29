@@ -280,7 +280,7 @@ bool pm25::sendCmdAndGet(uint8_t *buf, uint8_t len, uint8_t cmd, bool general, u
 		else if(_serial->read() == 0x40){
 			timeout = PM25_RESP_TIME;
 			int len = _serial->read();
-			uint8_t resp[len+2] = {0};
+			uint8_t resp[len+2];
 			_serial->readBytes(resp+2, len);
 			uint8_t checksum = _serial->read();
 			resp[0] = 0x40; resp[1] = len;
